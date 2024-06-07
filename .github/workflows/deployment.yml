@@ -19,7 +19,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '20.14.0'
+        node-version: '14.x'
 
     - name: Install dependencies & Generate static files
       run: |
@@ -28,6 +28,7 @@ jobs:
         npm i
         hexo clean
         hexo g
+        gulp
     - name: Deploy to Github Pages
       env:
         GIT_NAME: isrror
