@@ -36,3 +36,4 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+![](3f389fea711337a41672fd1adb03a97f.png)![](f3ef0aa818e67cdd022cca185160dab7.png)
