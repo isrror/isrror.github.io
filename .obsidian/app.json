@@ -8,5 +8,6 @@
     "scaffolds/",
     "themes/"
   ],
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "newLinkFormat": "relative"
 }
