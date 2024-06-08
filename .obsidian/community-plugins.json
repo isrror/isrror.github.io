@@ -1,5 +1,6 @@
 [
   "obsidian-git",
   "obsidian-markdown-export-plugin",
-  "nl-fast-image-cleaner"
+  "nl-fast-image-cleaner",
+  "obsidian-linter"
 ]
