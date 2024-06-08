@@ -1,5 +1,6 @@
 ---
 title: Hello World
+abbrlink: 16107
 ---
 # 堂堂复活
 
