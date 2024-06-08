@@ -150,7 +150,7 @@ toc:
   page: false
   number: true
   expand: false
-  style_simple: true # for post
+  style_simple: false # for post
   scroll_percent: true
 
 post_copyright:
