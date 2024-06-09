@@ -135,8 +135,8 @@ bangumi: # 追番设置
   extraOrder:
   order: latest
   # proxy:
-  #   host: '代理host'
-  #   port: '代理端口'
+  #   host: '127.0.0.1'
+  #   port: '7890'
   extra_options:
     key: value
   coverMirror:

@@ -61,7 +61,7 @@
       "enabled": true,
       "date-created": true,
       "date-created-key": "date",
-      "force-retention-of-create-value": true,
+      "force-retention-of-create-value": false,
       "date-modified": true,
       "date-modified-key": "updated",
       "format": "YYYY-MM-DD kk:mm:ss"
@@ -265,10 +265,12 @@
   "lintOnSave": true,
   "recordLintOnSaveLogs": false,
   "displayChanged": true,
-  "lintOnFileChange": true,
+  "lintOnFileChange": false,
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
-  "foldersToIgnore": [],
+  "foldersToIgnore": [
+    "scaffolds"
+  ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
   "lintCommands": [],

@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/获取不蒜子访问数据.md",
+                "file": "source/_posts/hexo双分支部署.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "c35bdec611d93443",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.2"
               }
             }
           }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/获取不蒜子访问数据.md",
+                "file": "source/_posts/hexo双分支部署.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/获取不蒜子访问数据.md",
+                "file": "source/_posts/hexo双分支部署.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/获取不蒜子访问数据.md"
+                "file": "source/_posts/hexo双分支部署.md"
               }
             }
           },
@@ -154,8 +164,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "430d7b757ce7e55a",
+  "active": "ed84ac98c9196385",
   "lastOpenFiles": [
+    "source/images/e325f8470e45a33437f26982e81f6447.png",
+    "source/images/Pasted image 20240609232043.png",
+    "source/images/Pasted image 20240609225113.png",
+    "source/images/Pasted image 20240609224758.png",
+    "scaffolds/post.md",
+    "source/_posts/hexo双分支部署.md",
+    "source/_posts/hexo双分支部署.md",
+    "scaffolds/Template/Front-matter.md.md",
+    "scaffolds/page.md",
+    "source/_posts/获取不蒜子访问数据.md",
     "node_modules/hexo-abbrlink/node_modules/sprintf-js/test/test.js",
     "node_modules/hexo-abbrlink/node_modules/sprintf-js/test",
     "node_modules/hexo-abbrlink/node_modules/sprintf-js/demo/angular.html",
@@ -163,9 +183,6 @@
     "node_modules/hexo-abbrlink/node_modules/js-yaml/bin/js-yaml.js",
     "node_modules/hexo-abbrlink/node_modules/js-yaml/bin",
     "source/_posts/hello-world-test.md",
-    "scaffolds/post.md",
-    "scaffolds/Template/Front-matter.md.md",
-    "source/_posts/获取不蒜子访问数据.md",
     "db.json",
     "public/img/nina.gif",
     "public/images/Pasted image 20240609000930.png",
@@ -177,17 +194,12 @@
     "public/js/search/local-search.js",
     "public/js/search/algolia.js",
     "public/js/search",
-    "public/js/utils.js",
-    "public/images/f3ef0aa818e67cdd022cca185160dab7.png",
-    "public/images/f3ef0aa818e67cdd022cca185160dab7 1.png",
-    "public/images/Pasted image 20240608235502.png",
     "node_modules/hexo-abbrlink/node_modules/hexo-front-matter/README.md",
     "node_modules/hexo-abbrlink/README.md",
     "node_modules/hexo-abbrlink/node_modules/js-yaml/README.md",
     "node_modules/hexo-abbrlink/node_modules/htmlparser2/README.md",
     "node_modules/hexo-abbrlink/node_modules/domhandler/readme.md",
     "node_modules/hexo-abbrlink/node_modules/argparse/CHANGELOG.md",
-    "scaffolds/page.md",
     "node_modules/luxon/README.md",
     "node_modules/luxon/LICENSE.md",
     "node_modules/hexo-deployer-git/node_modules/hexo-util/README.md",
