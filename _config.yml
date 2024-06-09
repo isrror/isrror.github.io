@@ -113,6 +113,69 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: butterfly
 
+bangumi: # 追番设置
+  enable: true
+  source: bangumi
+  bgmInfoSource: 'bgmApi'
+  path: bangumis/
+  vmid: 470406
+  title: '追番列表'
+  quote: '随缘标记，摸鱼看番'
+  show: 1
+  lazyload: true
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
+  loading:
+  showMyComment: false
+  pagination: false
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  order: latest
+  # proxy:
+  #   host: '代理host'
+  #   port: '代理端口'
+  extra_options:
+    key: value
+  coverMirror:
+cinema: # 追剧设置
+  enable: true
+  path:
+  vmid:
+  title: '追剧列表'
+  quote: '这是个啥？'
+  show: 1
+  lazyload: true
+  srcValue: '__image__'
+  lazyloadAttrName: 'data-src=__image__'
+  loading:
+  metaColor:
+  color:
+  webp:
+  progress:
+  extraOrder:
+  order:
+  extra_options:
+    key: value
+  coverMirror:
+
+# hexo-generator-feed
+feed:
+  enable: true
+  type: rss2
+  path: rss2.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:

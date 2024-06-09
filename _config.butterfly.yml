@@ -9,15 +9,16 @@ nav:
 
 # Menu 目錄
 menu:
-  Home: / || fas fa-home
-  Archives: /archives/ || fas fa-archive
+  主页: / || fas fa-home
+  归档: /archives/ || fas fa-archive
   # Tags: /tags/ || fas fa-tags
   # Categories: /categories/ || fas fa-folder-open
   # List||fas fa-list:
   #   Music: /music/ || fas fa-music
   #   Movie: /movies/ || fas fa-video
   # Link: /link/ || fas fa-link
-  # About: /about/ || fas fa-heart
+  番组: /bangumis/ || fas fa-clapperboard
+  关于: /about/ || fas fa-heart
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -44,7 +45,7 @@ favicon: /img/logo.png
 
 # Avatar (頭像)
 avatar:
-  img: /img/nina.gif #https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
+  img: /img/kita.png #https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png
   effect: false
 
 # Disable all banner image
@@ -150,7 +151,7 @@ toc:
   page: false
   number: true
   expand: false
-  style_simple: false # for post
+  style_simple: true # for post
   scroll_percent: true
 
 post_copyright:
@@ -218,7 +219,7 @@ aside:
   enable: true
   hide: false
   button: true
-  mobile: false # display on mobile
+  mobile: true # display on mobile
   position: right # left or right
   display:
     archive: true
@@ -229,9 +230,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
-      text: Follow Me
-      link: https://github.com/isrror
+      icon: fas fa-square-rss
+      text: 订阅本站
+      link: /rss2.xml
   card_announcement:
     enable: true
     content: This is my Blog !!!!!
@@ -642,10 +643,11 @@ text_align_justify: false
 # Website Background (設置網站背景)
 # can set it to color or image (可設置圖片 或者 顔色)
 # The formal of image: url(http://xxxxxx.com/xxx.jpg)
-background:
+background: linear-gradient(to top, rgba(230, 233, 240, 1) 0%, rgba(238, 241, 245, 1) 100%);
+
 
 # Footer Background
-footer_bg: false
+footer_bg:  rgb(230,233,240)
 
 # Add mask to header or footer (为 header 或 footer 添加黑色半透遮罩)
 mask:
@@ -672,11 +674,11 @@ activate_power_mode:
 # canvas_ribbon (靜止彩帶背景)
 # See: https://github.com/hustcc/ribbon.js
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 150
   alpha: 0.6
   zIndex: -1
-  click_to_change: false
+  click_to_change: true
   mobile: false
 
 # Fluttering Ribbon (動態彩帶)
@@ -730,7 +732,7 @@ beautify:
 # Global font settings
 # Don't modify the following settings unless you know how they work (非必要不要修改)
 font:
-  global-font-size:
+  global-font-size: 16px
   code-font-size:
   font-family:
   code-font-family:
