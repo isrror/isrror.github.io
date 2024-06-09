@@ -15,7 +15,7 @@
               "state": {
                 "file": "source/_posts/Github双分支部署hexo博客.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -164,7 +164,7 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "430d7b757ce7e55a",
+  "active": "ed84ac98c9196385",
   "lastOpenFiles": [
     "public/images/Pasted image 20240609225113.png",
     "public/images/Pasted image 20240609224758.png",
