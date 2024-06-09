@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/hexo双分支部署.md",
+                "file": "source/_posts/Github双分支部署hexo博客.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/hexo双分支部署.md",
+                "file": "source/_posts/Github双分支部署hexo博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/hexo双分支部署.md",
+                "file": "source/_posts/Github双分支部署hexo博客.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/hexo双分支部署.md"
+                "file": "source/_posts/Github双分支部署hexo博客.md"
               }
             }
           },
@@ -164,15 +164,15 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed84ac98c9196385",
+  "active": "2702e245047ba31e",
   "lastOpenFiles": [
     "source/images/e325f8470e45a33437f26982e81f6447.png",
     "source/images/Pasted image 20240609232043.png",
     "source/images/Pasted image 20240609225113.png",
     "source/images/Pasted image 20240609224758.png",
     "scaffolds/post.md",
-    "source/_posts/hexo双分支部署.md",
-    "source/_posts/hexo双分支部署.md",
+    "source/_posts/Github双分支部署hexo博客.md",
+    "source/_posts/Github双分支部署hexo博客.md",
     "scaffolds/Template/Front-matter.md.md",
     "scaffolds/page.md",
     "source/_posts/获取不蒜子访问数据.md",

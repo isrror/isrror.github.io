@@ -1,12 +1,15 @@
 ---
-title: hexo双分支部署
+title: Github双分支部署hexo博客
 aside: true
 abbrlink: 6c630d01
 date: 2024-06-09 22:17:11
-updated: 2024-06-09 23:36:47
+updated: 2024-06-09 23:40:12
 tags:
-description:
-categories:
+  - 博客
+  - Github
+  - "#hexo"
+description: 
+categories: 博客
 ---
 
 # 前言
