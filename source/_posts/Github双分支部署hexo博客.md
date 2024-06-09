@@ -1,9 +1,9 @@
 ---
 title: Github双分支部署hexo博客
 aside: true
-abbrlink: 6c630d01
+abbrlink: "13579"
 date: 2024-06-09 22:17:11
-updated: 2024-06-10 24:19:12
+updated: 2024-06-10 01:01:58
 tags:
   - 博客
   - Github
