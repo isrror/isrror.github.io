@@ -15,7 +15,7 @@
               "state": {
                 "file": "source/_posts/hello-world-test.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
