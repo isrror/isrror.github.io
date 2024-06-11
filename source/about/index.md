@@ -29,7 +29,7 @@ date: 2024-06-09 18:35:49
 **博客时间线（记忆模糊）**
 {% timeline 2024 %}
 <!-- timeline  6月 -->
-博客重启，使用butterfly 4.13主题，迁移到github pages，使用github actions构建
+博客重启，使用butterfly 4.13主题，迁移到github pages
 <!-- endtimeline -->
 {% endtimeline %}
 {% timeline 2022 %}
@@ -43,7 +43,7 @@ date: 2024-06-09 18:35:49
 <!-- endtimeline -->
 {% endtimeline %}
 {% timeline 2019 %}
-<!-- timeline 9月 -->
+<!-- timeline 2月 -->
 博客开站，托管于github pages，使用sakura主题
 <!-- endtimeline -->
 {% endtimeline %}
