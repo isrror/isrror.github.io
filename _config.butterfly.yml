@@ -36,6 +36,7 @@ code_word_wrap: false
 social:
   fab fa-github: https://github.com/isrror || Github || '#24292e'
   fas fa-envelope: mailto:isrror@gmail.com || Email || '#4a7dbe'
+  fas fa-music: https://music.163.com/#/user/home?id=569661001 || NeteaseMusic || '#e60026'
 
 # Image (圖片設置)
 # --------------------------------------
