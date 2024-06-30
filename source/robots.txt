@@ -12,3 +12,7 @@ Disallow: /fancybox/
 
 Sitemap: https://isrror.github.io/sitemap.xml
 Sitemap: https://isrror.github.io/baidusitemap.xml
+
+# 禁止所有其他爬虫访问整个站点
+User-agent: *
+Disallow: /
