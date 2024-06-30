@@ -1,7 +1,7 @@
 ---
 title: 赛马娘繁中URA配置记录
 date: 2024-06-28 18:03:52
-updated: 2024-07-01 00:11:58
+updated: 2024-07-01 00:18:59
 aside: true
 tags:
   - 网络
@@ -46,7 +46,7 @@ https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer
 1. 下载安装**赛马娘谷歌版**，运行游戏，到了登录界面就可以退出了，这步是为了生成Android/data/里的游戏数据文件
 2. 打开Locatify setting，软件会自动选择赛马娘游戏文件夹，点击选择就好，正常情况如图所示：![](../images/bfd49008470e900bc7c441470cb5ac2d.png)
 3. 点击Dump MessagePack，打开开关，点击Notifier host，输入你的本机IP:4693（通常为局域网IP，如博主是`http://192.168.2.185:4693`）
-   如何获取IP？按Win+R，输入cmd打开命令行，输入`ipconfig`，找到你的ipv4地址即可。
+   如何获取IP？按Win+R，输入cmd打开命令行，输入`ipconfig`，找到你的ipv4地址即可
 
 ## 电脑端软件下载
 1. 下载URA本体
@@ -58,3 +58,4 @@ https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer
 1. Localify setting中找不到赛马娘数据文件夹：首先看有没有忘记打开赛马娘，进入到登录界面，其次看赛马娘版本，应使用*谷歌版*而不是mycard版
 2. URA报错：自行查询项目issue，博主使用最新版的数据测试一切正常，如果需要使用旧版本，可以自行前往Release下载exe，并在QQ频道等渠道获取旧版本的br数据文件
 3. 事件成功失败不显示：URA设置中打开selectindex，输出@1就是成功，@2则是失败
+4. 赛马娘闪退：没什么好办法，重启模拟器重试。有群友说修改模拟器为单核可改善闪退
