@@ -1,12 +1,13 @@
 ---
 title: 赛马娘繁中URA配置记录
-date: 2024-06-28 18:03:52
-updated: 2024-07-01 00:25:45
 aside: true
 tags:
   - 网络
 description: 赛马娘URA配置
 categories: 日常
+abbrlink: e59d5e35
+date: 2024-06-28 18:03:52
+updated: 2024-07-01 00:25:45
 ---
 
 

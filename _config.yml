@@ -182,3 +182,10 @@ deploy:
   type: 'git'
   repo: 'https://github.com/isrror/isrror.github.io.git'
   branch: 'master'
+
+# seo优化
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
