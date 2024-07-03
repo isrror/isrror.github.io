@@ -7,7 +7,7 @@ description: 赛马娘URA配置
 categories: 日常
 abbrlink: e59d5e35
 date: 2024-06-28 18:03:52
-updated: 2024-07-01 00:25:45
+updated: 2024-07-03 18:49:49
 ---
 
 
@@ -17,11 +17,11 @@ UmamusumeResponseAnalyzer（后文简称URA）是一个赛马娘工具，项目�
 https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer
 # 本文使用的工具版本
 
-- 雷电模拟器9国内版：v9.0.61  官网地址: https://www.ldmnq.com/other/version-history-and-release-notes.html
-- Magisk面具：Kitsune Magisk原名Magisk Delta v26-1 官网地址： https://huskydg.github.io/magisk-files/ 博主本人是在该网站下载的旧版： https://magisk-delta.en.uptodown.com/android 可以自行前往可信任的网站下载
-- Localify模块：zygisk-umamusume-localify-2.16.2.with.vanilla.msgpack.hook-release.zip 下载地址： https://github.com/UmamusumeResponseAnalyzer/umamusume-localify-android/releases
-- 用于设置localify的apk：Localify Settings v1.6.0 下载地址： https://github.com/Kimjio/umamusume-localify-android/releases
-- UmamusumeResponseAnalyzer：v1.13.2.2 下载地址： https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer/releases
+- 雷电模拟器9 {% label 国内版 v9.0.61 blue %} [官网地址](https://www.ldmnq.com/other/version-history-and-release-notes.html)
+- Kitsune Magisk（原名Magisk Delta）{% label  v26-1 red %}[官网地址](https://huskydg.github.io/magisk-files/ )博主本人是在该[网站]( https://magisk-delta.en.uptodown.com/android)下载的旧版，可以自行前往其他可信任的网站下载
+- Localify模块：zygisk-umamusume-localify-2.16.2.with.vanilla.msgpack.hook-release.zip [下载地址](https://github.com/UmamusumeResponseAnalyzer/umamusume-localify-android/releases)
+- 用于设置localify的apk：Localify Settings v1.6.0 [下载地址](https://github.com/Kimjio/umamusume-localify-android/releases)
+- UmamusumeResponseAnalyzer：v1.13.2.2 [下载地址](https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer/releases)
 - 赛马娘谷歌版：前往[官网](https://uma.komoejoy.com/)获取，或者使用qooapp、apkpure、apkcombo等第三方软件获取
 # 从零开始的安装过程
 ## 模拟器下载设置
@@ -32,14 +32,14 @@ https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer
 
 ## APP下载和文件操作
 ### 文件下载
-下载安装Kitsune Magisk、localify setting和赛马娘繁中**谷歌版**
+下载安装Kitsune Magisk、Localify Settings和赛马娘繁中**谷歌版**
 下载zygisk-umamusume-localify-2.16.2.with.vanilla.msgpack.hook-release.zip并拖入模拟器，放进共享文件夹中
 ### Magisk设置
 
 1. 打开Kisune Magisk，勾选**永久允许Root**，点击Magisk旁边的安装，勾选**允许访问文件**
-2. 重点来了：***关闭并重启Magisk***
+2. 重点来了：***关闭并重启Magisk*** ，否则可能导致“安装到系统分区”不存在
 3. 再次点击Magisk旁边的安装，第一步的选项**不要勾选**，第二步选择**安装至系统分区**，如图所示：![](../images/dea47f18cf40dc9c93b60819f073904c.png) ![](../images/caf5dd1164e5cf2a5c5197a6583d913e.png)
-4. 直接使用点击**模拟器右上角的重启**，*不要*使用Magisk的重启
+4. 直接使用点击**模拟器右上角的重启**，**不要**使用Magisk的重启
 5. 打开Magisk进入设置勾选Zygisk，返回，打开模块，选择从本地安装，进入共享文件夹（一般是Pictures），确认安装，**重启**（还是一样，使用模拟器的重启）
 
 ### Localify的设置
@@ -63,3 +63,4 @@ https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer
   1. 关闭Localify模块，清除游戏缓存，重启游戏，确认能正常进入后再打开模块开关
   2. 重启模拟器，群友：修改模拟器为单核可改善闪退（博主未验证）
   3. 尝试重装游戏，可换个安装包，还不行那就重装模拟器
+- 其余问题：~~重启解决90% 重装解决99%~~
