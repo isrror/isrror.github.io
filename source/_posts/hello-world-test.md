@@ -3,7 +3,7 @@ title: Hello World
 abbrlink: 16107
 date: 2024-06-07 21:00:47
 description: hello world！
-updated: 2024-06-10 01:02:16
+updated: 2024-12-12 20:42:57
 ---
 # 堂堂复活
 
@@ -44,3 +44,5 @@ $ hexo deploy
 
 More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
 ![](../images/f3ef0aa818e67cdd022cca185160dab7%201.png)
+
+新设备测试

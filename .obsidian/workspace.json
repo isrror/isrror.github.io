@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/赛马娘繁中URA配置记录.md",
+                "file": "source/_posts/hello-world-test.md",
                 "mode": "source",
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "hello-world-test"
             }
           },
           {
@@ -26,7 +28,9 @@
               "type": "release-notes",
               "state": {
                 "currentVersion": "1.6.2"
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Release Notes 1.6.2"
             }
           }
         ]
@@ -49,7 +53,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
             }
           },
           {
@@ -64,7 +70,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
             }
           },
           {
@@ -72,7 +80,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
             }
           }
         ]
@@ -95,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "source/_posts/赛马娘繁中URA配置记录.md",
+                "file": "source/_posts/hello-world-test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +113,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "hello-world-test 的反向链接列表"
             }
           },
           {
@@ -112,10 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "source/_posts/赛马娘繁中URA配置记录.md",
+                "file": "source/_posts/hello-world-test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "hello-world-test 的出链列表"
             }
           },
           {
@@ -126,7 +140,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
             }
           },
           {
@@ -135,8 +151,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "source/_posts/赛马娘繁中URA配置记录.md"
-              }
+                "file": "source/_posts/hello-world-test.md"
+              },
+              "icon": "lucide-list",
+              "title": "hello-world-test 的大纲"
             }
           },
           {
@@ -144,7 +162,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -166,10 +186,10 @@
   },
   "active": "ed84ac98c9196385",
   "lastOpenFiles": [
-    "source/_posts/Hexo博客SEO优化.md",
-    "source/_posts/赛马娘繁中URA配置记录.md",
-    "source/_posts/hello-world-test.md",
     "source/_posts/Github双分支部署hexo博客.md",
+    "source/_posts/赛马娘繁中URA配置记录.md",
+    "source/_posts/Hexo博客SEO优化.md",
+    "source/_posts/hello-world-test.md",
     "source/_posts/获取不蒜子访问数据.md",
     "scaffolds/Template/Front-matter.md.md",
     "source/images/b36af439471dee46bfcf2b9e5073a352.png",
