@@ -269,7 +269,7 @@
   "displayLintOnFileChangeNotice": false,
   "settingsConvertedToConfigKeyValues": true,
   "foldersToIgnore": [
-    "scaffolds"
+    "scaffolds/Template"
   ],
   "linterLocale": "system-default",
   "logLevel": "ERROR",
