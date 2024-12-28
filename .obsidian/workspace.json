@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/传统与科学.md",
+                "file": "source/_posts/赛马娘繁中URA配置记录.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "传统与科学"
+              "title": "赛马娘繁中URA配置记录"
             }
           }
         ]
@@ -174,10 +174,10 @@
   },
   "active": "ed84ac98c9196385",
   "lastOpenFiles": [
+    "source/_posts/传统与科学.md",
     "source/_posts/赛马娘繁中URA配置记录.md",
     "source/images/Pasted image 20241229034252.png",
     "source/images/00013caca7a44900f20ac47b04b4cb2c.png",
-    "source/_posts/传统与科学.md",
     "scaffolds/Template/color-label.md.md",
     "scaffolds/Template/Front-matter.md.md",
     "source/_posts/Hexo博客SEO优化.md",
