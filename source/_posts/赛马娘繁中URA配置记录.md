@@ -7,10 +7,20 @@ description: 赛马娘URA配置
 categories: 日常
 abbrlink: e59d5e35
 date: 2024-06-28 18:03:52
-updated: 2024-07-03 18:52:49
+updated: 2024-12-29 03:56:23
 ---
 
+#  凯旋门版本问题
+2024年12月凯旋门版本更新后出现bug，导致URA无法正常使用。
 
+## 问题排查
+adb排查发现：arm64-v8a.so出现问题 ![](../images/Pasted%20image%2020241229034252.png)
+近期台服1.35.0版本首次使用了.xapk打包，博主此时猜测为兼容性问题，拆开近期更新的两个版本.xapk外加对比apkpure上的架构词条：[v1.35.0](https://apkpure.com/cn/%E8%B3%BD%E9%A6%AC%E5%A8%98pretty-derby/com.komoe.kmumamusumegp/download/1.35.0) 为`arm64-v8a`， [v2.0.3](https://apkpure.com/cn/%E8%B3%BD%E9%A6%AC%E5%A8%98pretty-derby/com.komoe.kmumamusumegp/download/2.0.3) 为`armeabi-v7a`
+而旧版本[v1.34.0](https://apkpure.com/cn/%E8%B3%BD%E9%A6%AC%E5%A8%98pretty-derby/com.komoe.kmumamusumegp/download/1.34.0)（.apk打包）则为`arm64-v8a,armeabi-v7a`
+可以发现：新版本采用.xapk打包导致兼容性出现问题，致使URA无法正确调用.so库
+
+## 解决方案
+下载{% label v1.34.0 blue %}或更旧版本的**谷歌版**安装包，安装后使用{% label qooapp red %}进行更新
 
 # 前言
 UmamusumeResponseAnalyzer（后文简称URA）是一个赛马娘工具，项目地址为：
