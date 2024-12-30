@@ -7,7 +7,7 @@ description: 赛马娘URA配置
 categories: 日常
 abbrlink: e59d5e35
 date: 2024-06-28 18:03:52
-updated: 2024-12-29 20:25:22
+updated: 2024-12-30 14:10:37
 ---
 
 
@@ -17,7 +17,7 @@ https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer
 # 本文使用的工具版本
 
 - 雷电模拟器9 {% label 国内版v9.0.61 blue %} [官网地址](https://www.ldmnq.com/other/version-history-and-release-notes.html)
-- Kitsune Magisk（原名Magisk Delta）{% label  v26-1 red %}[官网地址](https://huskydg.github.io/magisk-files/ )，博主本人是在该[网站]( https://magisk-delta.en.uptodown.com/android)下载的旧版，可以自行前往其他可信任的网站下载
+- Kitsune Magisk（原名Magisk Delta）{% label  v26-4 red %}[官网地址](https://huskydg.github.io/magisk-files/ )，~~博主本人是在该[网站]( https://magisk-delta.en.uptodown.com/android)下载的旧版，~~可以自行前往其他可信任的网站下载
 - Localify模块：zygisk-umamusume-localify-2.16.2.with.vanilla.msgpack.hook-release.zip [下载地址](https://github.com/UmamusumeResponseAnalyzer/umamusume-localify-android/releases)
 - 用于设置localify的apk：Localify Settings v1.6.0 [下载地址](https://github.com/Kimjio/umamusume-localify-android/releases)
 - UmamusumeResponseAnalyzer：v1.13.2.2 [下载地址](https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer/releases)
