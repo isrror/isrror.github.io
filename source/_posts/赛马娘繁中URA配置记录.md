@@ -26,7 +26,7 @@ https://github.com/UmamusumeResponseAnalyzer/UmamusumeResponseAnalyzer
 ## 模拟器下载设置
 
 1. 雷电官网下载安装上述版本
-2. 把`System.vmdk`和`Root`打开
+2. 把`System.vmdk`可写和`Root`打开
 3. 重启模拟器
 
 ## APP下载和文件操作
