@@ -181,7 +181,7 @@ feed:
 deploy:
   type: 'git'
   repo: 'https://github.com/isrror/isrror.github.io.git'
-  branch: 'master'
+  branch: 'hexo'
 
 # seo优化
 # 自动生成sitemap
