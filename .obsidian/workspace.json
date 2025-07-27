@@ -13,12 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/_posts/赛马娘繁中URA配置记录.md",
+                "file": "source/_posts/赛马娘繁中PVP大赛记录.md",
                 "mode": "source",
-                "source": true
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "赛马娘繁中URA配置记录"
+              "title": "赛马娘繁中PVP大赛记录"
             }
           }
         ]
@@ -40,7 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -77,8 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "37bdac2d022653bf",
@@ -175,26 +176,28 @@
   },
   "active": "ed84ac98c9196385",
   "lastOpenFiles": [
-    "source/_posts/传统与科学.md",
+    "赛马娘繁中PVP大赛记录.pdf",
+    "source/images/Pasted image 20250727114043.png",
+    "source/images/Pasted image 20250727112256.png",
+    "source/images/Pasted image 20250727111812.png",
+    "source/images/Pasted image 20250727111529.png",
+    "source/images/Pasted image 20250727104036.png",
+    "source/_posts/赛马娘繁中PVP大赛记录.md",
+    "source/images/Pasted image 20250727105344.png",
+    "source/images/Pasted image 20250727104923.png",
+    "source/_posts/Github双分支部署hexo博客.md",
     "source/_posts/赛马娘繁中URA配置记录.md",
+    "source/_posts/传统与科学.md",
     "source/images/Pasted image 20241229034252.png",
     "source/images/00013caca7a44900f20ac47b04b4cb2c.png",
     "scaffolds/Template/color-label.md.md",
     "scaffolds/Template/Front-matter.md.md",
     "source/_posts/Hexo博客SEO优化.md",
-    "source/_posts/Github双分支部署hexo博客.md",
     "source/_posts/获取不蒜子访问数据.md",
     "source/_posts/hello-world-test.md",
     "scaffolds/page.md",
     "source/_posts/().md",
     "source/images/b36af439471dee46bfcf2b9e5073a352.png",
-    "source/images/bfd49008470e900bc7c441470cb5ac2d.png",
-    "source/images/caf5dd1164e5cf2a5c5197a6583d913e.png",
-    "source/images/dea47f18cf40dc9c93b60819f073904c.png",
-    "source/images/Pasted image 20240628180445.png",
-    "public/images/Pasted image 20240609225113.png",
-    "public/images/Pasted image 20240609224758.png",
-    "public/images/Pasted image 20240609232043.png",
     "public/tags/hexo/index.html",
     "public/tags/hexo",
     "public/tags/Github/index.html",
