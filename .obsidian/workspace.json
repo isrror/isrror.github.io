@@ -174,8 +174,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed84ac98c9196385",
+  "active": "430d7b757ce7e55a",
   "lastOpenFiles": [
+    "source/umasim/race/144e166877b65be6ca78.wasm",
     "赛马娘繁中PVP大赛记录.pdf",
     "source/images/Pasted image 20250727114043.png",
     "source/images/Pasted image 20250727112256.png",
@@ -208,7 +209,6 @@
     "node_modules/hexo-abbrlink/node_modules/sprintf-js/test/test.js",
     "node_modules/hexo-abbrlink/node_modules/sprintf-js/test",
     "node_modules/hexo-abbrlink/node_modules/sprintf-js/demo/angular.html",
-    "node_modules/hexo-abbrlink/node_modules/sprintf-js/demo",
     "node_modules/hexo-abbrlink/node_modules/hexo-front-matter/README.md",
     "node_modules/hexo-abbrlink/README.md",
     "node_modules/hexo-abbrlink/node_modules/js-yaml/README.md",
