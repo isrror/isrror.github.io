@@ -1,6 +1,11 @@
 ---
 date: 2025-07-27 10:32:34
-updated: 2025-07-27 11:47:18
+updated: 2025-07-27 22:31:35
+title: 赛马娘繁中PVP大赛记录
+aside: true
+tags: 游戏
+description: 2025年7-12月大赛信息
+categories: 日常
 ---
 
 # 本文所用的到工具
