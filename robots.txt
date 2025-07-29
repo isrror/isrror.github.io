@@ -1,0 +1,19 @@
+# hexo robots.txt
+# User-agent: Googlebot
+# Allow: /
+# Allow: /archives/
+
+# Disallow: /vendors/
+# Disallow: /js/
+# Disallow: /css/
+# Disallow: /fonts/
+# Disallow: /vendors/
+# Disallow: /fancybox/
+# Disallow: /umasim/
+
+# Sitemap: https://isrror.github.io/sitemap.xml
+# Sitemap: https://isrror.github.io/baidusitemap.xml
+
+# 禁止所有其他爬虫访问整个站点
+User-agent: *
+Disallow: /

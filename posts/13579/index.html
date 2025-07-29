@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>Github双分支部署hexo博客 | 青山何处深</title><meta name="author" content="Coda"><meta name="copyright" content="Coda"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="本博客使用的方案">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Github双分支部署hexo博客">
+<meta property="og:url" content="https://isrror.github.io/posts/13579/index.html">
+<meta property="og:site_name" content="青山何处深">
+<meta property="og:description" content="本博客使用的方案">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://isrror.github.io/img/kita.png">
+<meta property="article:published_time" content="2024-06-09T14:17:11.000Z">
+<meta property="article:modified_time" content="2024-06-09T17:01:58.000Z">
+<meta property="article:author" content="Coda">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="Github">
+<meta property="article:tag" content="hexo">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://isrror.github.io/img/kita.png"><link rel="shortcut icon" href="/img/neko.png"><link rel="canonical" href="https://isrror.github.io/posts/13579/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3e39ca81500f8fecb64a60b2a952d426";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-75DZCZWEJT"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-75DZCZWEJT');
+</script><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'Github双分支部署hexo博客',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2024-06-10 01:01:58'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.2.0"><link rel="alternate" href="/rss2.xml" title="青山何处深" type="application/rss+xml">
+</head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/kita.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">7</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">7</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">2</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/bangumis/"><i class="fa-fw fas fa-clapperboard"></i><span> 番组</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog-info"><a href="/" title="青山何处深"><span class="site-name">青山何处深</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/bangumis/"><i class="fa-fw fas fa-clapperboard"></i><span> 番组</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">Github双分支部署hexo博客</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2024-06-09T14:17:11.000Z" title="发表于 2024-06-09 22:17:11">2024-06-09</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2024-06-09T17:01:58.000Z" title="更新于 2024-06-10 01:01:58">2024-06-10</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%8D%9A%E5%AE%A2/">博客</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Github双分支部署hexo博客"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博主之前的博客部署过程如下：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">hexo clean </span><br><span class="line">hexo g</span><br><span class="line">hexo d  #使用deployer模块生成可部署文件</span><br><span class="line"></span><br><span class="line">git add .</span><br><span class="line">git commit -m &quot;&quot;</span><br><span class="line">git push #推送到远程github仓库</span><br><span class="line"><span class="meta prompt_"></span></span><br><span class="line"><span class="meta prompt_">#</span><span class="language-bash">前往github发布成release</span></span><br></pre></td></tr></table></figure>
+<p>整个过程可谓相当繁琐，且Github上保存的只有待部署静态文件，无法保存源码。</p>
+<p>本次重启博客，发现<code>Github Actions</code>非常好用，只需将博客源码提交到hexo分支，并编写workflows文件，Github Actions就可以自动构建待部署静态文件，接着自动部署到Github Pages，该种方法既免去了繁琐的发布过程，同时保存了源码与待部署静态文件，便于其他同样想要使用Butterfly主题的开发者参考。既然博客开源那就贯彻到底！</p>
+<div class="note info simple"><p>提醒：本方法是在同一仓库生成两个分支用于存放源码和待部署静态文件，若你需要还可以将博客源码和部署文件分成两个仓库，具体操作请自行搜索</p>
+</div>
+
+<h1 id="准备工作"><a href="#准备工作" class="headerlink" title="准备工作"></a>准备工作</h1><ul>
+<li>hexo博客 （能在本地正常运行）</li>
+<li>git bash</li>
+<li>github</li>
+<li>良好的网络工具</li>
+<li>任一文本编辑器</li>
+</ul>
+<h1 id="Github仓库设置"><a href="#Github仓库设置" class="headerlink" title="Github仓库设置"></a>Github仓库设置</h1><h2 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h2><p>新建一个仓库，名为<code>[username].github.io</code>，username使用你的github用户名。</p>
+<h2 id="获取Token"><a href="#获取Token" class="headerlink" title="获取Token"></a>获取Token</h2><p>前往Github的设置中：<a target="_blank" rel="noopener" href="https://github.com/settings/tokens">https://github.com/settings/tokens</a><br>点击生成一个Token，我选的是classic，如图：<br><img src="/../images/Pasted%20image%2020240609224758.png"><br>生成后先保存好Token的值（复制粘贴）</p>
+<h2 id="仓库设置"><a href="#仓库设置" class="headerlink" title="仓库设置"></a>仓库设置</h2><p>前往仓库添加Actions的变量，如图：<br><img src="/../images/Pasted%20image%2020240609225113.png"><br>GH_TOKEN就填上面获取到的Token，GH_EMAIL就填你Github的注册邮箱。</p>
+<h1 id="本地博客设置"><a href="#本地博客设置" class="headerlink" title="本地博客设置"></a>本地博客设置</h1><p>在你的博客根目录<code>git bash here</code></p>
+<h2 id="连接远程仓库"><a href="#连接远程仓库" class="headerlink" title="连接远程仓库"></a>连接远程仓库</h2><p>首先执行以下命令，获取ssh钥匙：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -b 4096 -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure>
+<p>将邮箱改成你Github的注册邮箱，接着一路回车，遇到 yes&#x2F;no 输入yes即可。<br>接着输入以下命令获取公钥：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub #获取公钥</span><br></pre></td></tr></table></figure>
+<p>去Github的设置中新建一个ssh key，名称随意，将公钥粘贴到其中即可。</p>
+<p>如果你的博客尚未初始化，记得先执行：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git init</span><br></pre></td></tr></table></figure>
+<p>关联远程仓库，记得将链接改成你自己的仓库链接：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git remote add origin git@github.com:isrror/isrror.github.io.git</span><br></pre></td></tr></table></figure>
+<p>接着创建本地<code>master/mian</code>分支并推送：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;&quot;</span><br><span class="line">git branch</span><br><span class="line">git push -u origin master</span><br></pre></td></tr></table></figure>
+<p>新建<code>hexo</code>并转到<code>hexo</code>分支提交：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git checkout -b hexo</span><br><span class="line">git push origin HEAD -u</span><br></pre></td></tr></table></figure>
+<p>此时去Github仓库看看可以发现两个分支。</p>
+<h1 id="Github-Actions设置"><a href="#Github-Actions设置" class="headerlink" title="Github Actions设置"></a>Github Actions设置</h1><p>在博客根目录下新建<code>workflows</code>文件夹，新建<code>deployment.yml</code>文件，如图所示：<br><img src="/../images/Pasted%20image%2020240609232043.png"><br>将以下内容填入其中：</p>
+<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">name:</span> <span class="string">Deployment</span></span><br><span class="line"></span><br><span class="line"><span class="attr">on:</span></span><br><span class="line">  <span class="attr">push:</span></span><br><span class="line">    <span class="attr">branches:</span> [<span class="string">hexo</span>] <span class="comment"># only push events on source branch trigger deployment</span></span><br><span class="line"></span><br><span class="line"><span class="attr">jobs:</span></span><br><span class="line">  <span class="attr">hexo-deployment:</span></span><br><span class="line">    <span class="attr">runs-on:</span> <span class="string">ubuntu-latest</span></span><br><span class="line">    <span class="attr">env:</span></span><br><span class="line">      <span class="attr">TZ:</span> <span class="string">Asia/Shanghai</span></span><br><span class="line"></span><br><span class="line">    <span class="attr">steps:</span></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Checkout</span> <span class="string">source</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">actions/checkout@v2</span></span><br><span class="line">      <span class="attr">with:</span></span><br><span class="line">        <span class="attr">submodules:</span> <span class="literal">true</span></span><br><span class="line"></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Setup</span> <span class="string">Node.js</span></span><br><span class="line">      <span class="attr">uses:</span> <span class="string">actions/setup-node@v1</span></span><br><span class="line">      <span class="attr">with:</span></span><br><span class="line">        <span class="attr">node-version:</span> <span class="string">&#x27;20.x&#x27;</span></span><br><span class="line"></span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Install</span> <span class="string">dependencies</span> <span class="string">&amp;</span> <span class="string">Generate</span> <span class="string">static</span> <span class="string">files</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        node -v</span></span><br><span class="line"><span class="string">        npm i -g hexo-cli</span></span><br><span class="line"><span class="string">        npm i</span></span><br><span class="line"><span class="string">        hexo clean</span></span><br><span class="line"><span class="string">        hexo g</span></span><br><span class="line"><span class="string"></span>        </span><br><span class="line">    <span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Deploy</span> <span class="string">to</span> <span class="string">Github</span> <span class="string">Pages</span></span><br><span class="line">      <span class="attr">env:</span></span><br><span class="line">        <span class="attr">GIT_NAME:</span> <span class="string">isrror</span> <span class="string">//改成你的用户名</span></span><br><span class="line">        <span class="attr">GIT_EMAIL:</span> <span class="string">$&#123;&#123;</span> <span class="string">secrets.GIT_EMAIL</span> <span class="string">&#125;&#125;</span></span><br><span class="line">        <span class="attr">REPO:</span> <span class="string">github.com/isrror/isrror.github.io</span> <span class="string">//改成你的仓库</span></span><br><span class="line">        <span class="attr">GH_TOKEN:</span> <span class="string">$&#123;&#123;</span> <span class="string">secrets.GH_TOKEN</span> <span class="string">&#125;&#125;</span></span><br><span class="line">      <span class="attr">run:</span> <span class="string">|</span></span><br><span class="line"><span class="string">        cd ./public &amp;&amp; git init &amp;&amp; git add .</span></span><br><span class="line"><span class="string">        git config --global user.name $GIT_NAME</span></span><br><span class="line"><span class="string">        git config --global user.email $GIT_EMAIL</span></span><br><span class="line"><span class="string">        git commit -m &quot;Site deployed by GitHub Actions&quot;</span></span><br><span class="line"><span class="string">        git push --force --quiet &quot;https://$GH_TOKEN@$REPO&quot; master:master</span></span><br></pre></td></tr></table></figure>
+<p>具体参数可前往官网文档查看：<a target="_blank" rel="noopener" href="https://support.github.com/ci-cd-devops">https://support.github.com/ci-cd-devops</a><br>最后提交修改：</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">git add .</span><br><span class="line">git commit -m &quot;Github Actions&quot;</span><br><span class="line">git push origin hexo</span><br></pre></td></tr></table></figure>
+<p>之后每次修改后使用上述三行命令即可，也可以将其写成<code>.bat</code>文件更加方便。</p>
+<h1 id="一些坑"><a href="#一些坑" class="headerlink" title="一些坑"></a>一些坑</h1><p>博主使用的butterfly主题，Github Actions报错如下：<br><img src="/../images/e325f8470e45a33437f26982e81f6447.png"><br>错误为：无法找到子模块，甚至都找不到<code>.gitmodules</code>文件<br>原因尚且不明，猜测可能是：</p>
+<ol>
+<li>Github Actions Runners更新（明日方舟maa提到了）</li>
+<li>本人使用的git clone方法安装的butterfly主题，因此导致模块无法识别<br>解决方法：新建一个<code>.gitmmodules</code>文件，写入以下内容<figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">[<span class="string">submodule</span> <span class="string">&quot;themes/butterfly&quot;</span>]</span><br><span class="line"></span><br><span class="line">  <span class="string">path</span> <span class="string">=</span> <span class="string">themes/butterfly</span></span><br><span class="line"></span><br><span class="line">  <span class="string">url</span> <span class="string">=</span> <span class="string">https://github.com/jerryc127/hexo-theme-butterfly.git</span></span><br></pre></td></tr></table></figure></li>
+</ol>
+<p>参考文章：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://stackoverflow.com/questions/4185365/no-submodule-mapping-found-in-gitmodule-for-a-path-thats-not-a-submodule">https://stackoverflow.com/questions/4185365/no-submodule-mapping-found-in-gitmodule-for-a-path-thats-not-a-submodule</a></li>
+<li><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/137867759">https://zhuanlan.zhihu.com/p/137867759</a></li>
+<li><a target="_blank" rel="noopener" href="https://worktile.com/kb/ask/208566.html">https://worktile.com/kb/ask/208566.html</a></li>
+</ul>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta"><i class="fas fa-circle-user fa-fw"></i>文章作者: </span><span class="post-copyright-info"><a href="https://isrror.github.io">Coda</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta"><i class="fas fa-square-arrow-up-right fa-fw"></i>文章链接: </span><span class="post-copyright-info"><a href="https://isrror.github.io/posts/13579/">https://isrror.github.io/posts/13579/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta"><i class="fas fa-circle-exclamation fa-fw"></i>版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://isrror.github.io" target="_blank">青山何处深</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a><a class="post-meta__tags" href="/tags/Github/">Github</a><a class="post-meta__tags" href="/tags/hexo/">hexo</a></div><div class="post_share"><div class="social-share" data-image="/img/kita.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/posts/e59d5e35/" title="赛马娘繁中URA配置记录"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">赛马娘繁中URA配置记录</div></div></a></div><div class="next-post pull-right"><a href="/posts/48850/" title="获取不蒜子访问数据"><div class="cover" style="background: var(--default-bg-color)"></div><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">获取不蒜子访问数据</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span>相关推荐</span></div><div class="relatedPosts-list"><div><a href="/posts/ca0e86e3/" title="Hexo博客SEO优化"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-07-02</div><div class="title">Hexo博客SEO优化</div></div></a></div><div><a href="/posts/48850/" title="获取不蒜子访问数据"><div class="cover" style="background: var(--default-bg-color)"></div><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2024-06-08</div><div class="title">获取不蒜子访问数据</div></div></a></div></div></div><hr class="custom-hr"/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div id="twikoo-wrap"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%89%8D%E8%A8%80"><span class="toc-number">1.</span> <span class="toc-text">前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%87%86%E5%A4%87%E5%B7%A5%E4%BD%9C"><span class="toc-number">2.</span> <span class="toc-text">准备工作</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Github%E4%BB%93%E5%BA%93%E8%AE%BE%E7%BD%AE"><span class="toc-number">3.</span> <span class="toc-text">Github仓库设置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%96%B0%E5%BB%BA%E4%BB%93%E5%BA%93"><span class="toc-number">3.1.</span> <span class="toc-text">新建仓库</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%8E%B7%E5%8F%96Token"><span class="toc-number">3.2.</span> <span class="toc-text">获取Token</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BB%93%E5%BA%93%E8%AE%BE%E7%BD%AE"><span class="toc-number">3.3.</span> <span class="toc-text">仓库设置</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%9C%AC%E5%9C%B0%E5%8D%9A%E5%AE%A2%E8%AE%BE%E7%BD%AE"><span class="toc-number">4.</span> <span class="toc-text">本地博客设置</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E8%BF%9E%E6%8E%A5%E8%BF%9C%E7%A8%8B%E4%BB%93%E5%BA%93"><span class="toc-number">4.1.</span> <span class="toc-text">连接远程仓库</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Github-Actions%E8%AE%BE%E7%BD%AE"><span class="toc-number">5.</span> <span class="toc-text">Github Actions设置</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%B8%80%E4%BA%9B%E5%9D%91"><span class="toc-number">6.</span> <span class="toc-text">一些坑</span></a></li></ol></div></div></div></div></main><footer id="footer" style="background: rgb(230,233,240)"><div id="footer-wrap"><div class="copyright">&copy;2019 - 2025 By Coda</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">人面不知何处去，桃花依旧笑春风。</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>(() => {
+  const getCount = () => {
+    const countELement = document.getElementById('twikoo-count')
+    if(!countELement) return
+    twikoo.getCommentsCount({
+      envId: 'https://isrror-blog-discuss.hf.space',
+      region: '',
+      urls: [window.location.pathname],
+      includeReply: false
+    }).then(res => {
+      countELement.textContent = res[0].count
+    }).catch(err => {
+      console.error(err)
+    })
+  }
+
+  const init = () => {
+    twikoo.init(Object.assign({
+      el: '#twikoo-wrap',
+      envId: 'https://isrror-blog-discuss.hf.space',
+      region: '',
+      onCommentLoaded: () => {
+        btf.loadLightbox(document.querySelectorAll('#twikoo .tk-content img:not(.tk-owo-emotion)'))
+      }
+    }, null))
+
+    
+  }
+
+  const loadTwikoo = () => {
+    if (typeof twikoo === 'object') setTimeout(init,0)
+    else getScript('https://cdn.jsdelivr.net/npm/twikoo@1.6.31/dist/twikoo.all.min.js').then(init)
+  }
+
+  if ('Twikoo' === 'Twikoo' || !false) {
+    if (false) btf.loadComment(document.getElementById('twikoo-wrap'), loadTwikoo)
+    else loadTwikoo()
+  } else {
+    window.loadOtherComment = loadTwikoo
+  }
+})()</script></div><script defer="defer" id="ribbon" src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="true"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
