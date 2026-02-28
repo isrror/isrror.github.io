@@ -174,8 +174,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed84ac98c9196385",
+  "active": "430d7b757ce7e55a",
   "lastOpenFiles": [
+    "source/umasim/race/6b16932a3b06958b4a56.wasm",
     "source/images/Pasted image 20260228194627.png",
     "source/images/Pasted image 20260228194554.png",
     "source/images/Pasted image 20260228193706.png",
@@ -198,7 +199,6 @@
     "source/images/Pasted image 20250727104036.png",
     "source/images/Pasted image 20250727105344.png",
     "source/images/Pasted image 20250727104923.png",
-    "source/images/Pasted image 20241229034252.png",
     "scaffolds/Template/color-label.md.md",
     "source/_posts/().md",
     "public/tags/hexo/index.html",
