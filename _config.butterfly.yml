@@ -484,7 +484,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://isrror-blog-discuss.hf.space
+  envId: https://isrror-twikoo2026.hf.space
   region:
   visitor: false
   option:
