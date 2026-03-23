@@ -2,7 +2,7 @@ name: Deployment
 
 on:
   push:
-    branches: [hexo] # only push events on source branch trigger deployment
+    branches: [hexo]
 
 jobs:
   hexo-deployment:
@@ -14,7 +14,7 @@ jobs:
     - name: Checkout source
       uses: actions/checkout@v4
       with:
-        submodules: true
+        submodules: true  # 这个会拉取 butterfly 主题
 
     - name: Setup Node.js
       uses: actions/setup-node@v4
@@ -24,10 +24,11 @@ jobs:
     - name: Install dependencies & Generate static files
       run: |
         node -v
-        npm i -g hexo-cli
+        # 安装与 hexo 7.3.0 兼容的 hexo-cli 版本
+        npm i -g hexo-cli@4.3.2
         npm i
         hexo clean
-        hexo g
+        hexo generate
         
     - name: Deploy to Github Pages
       env:
