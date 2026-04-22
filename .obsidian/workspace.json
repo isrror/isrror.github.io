@@ -28,16 +28,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "source/about/index.md",
+                "file": "source/_posts/赛马娘繁中URA配置记录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "赛马娘繁中URA配置记录"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -94,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 635.5
   },
   "right": {
     "id": "37bdac2d022653bf",
@@ -190,37 +189,38 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "55f7cc8069c68eec",
+  "active": "ed84ac98c9196385",
   "lastOpenFiles": [
+    "source/images/Pasted image 20260422180918.png",
+    "source/images/Pasted image 20260422180730.png",
+    "source/images/Pasted image 20260422180618.png",
+    "Pasted image 20260422180408.png",
+    "source/_posts/赛马娘繁中PVP大赛记录.md",
+    "Pasted image 20260422180308.png",
+    "source/_posts/赛马娘繁中URA配置记录.md",
+    "Pasted image 20260422175957.png",
+    "source/images/Pasted image 20260228194627.png",
+    "source/images/Pasted image 20260228194554.png",
+    "source/images/Pasted image 20260228193706.png",
+    "source/images/Pasted image 20250727114043.png",
     "source/about/index.md",
     "conflict-files-obsidian-git.md",
-    "source/_posts/赛马娘繁中PVP大赛记录.md",
     "source/_posts/赛马娘游戏机制小知识.md",
     "source/_posts/博客维护笔记.md",
-    "source/images/Pasted image 20260228194554.png",
     "source/_posts/传统与科学.md",
     "source/_posts/获取不蒜子访问数据.md",
     "source/categories/index.md",
     "source/bangumis/index.md",
-    "source/_posts/赛马娘繁中URA配置记录.md",
     "source/_posts/Hexo博客SEO优化.md",
     "source/_posts/hello-world-test.md",
     "source/_posts/Github双分支部署hexo博客.md",
     "source/umasim/race/6b16932a3b06958b4a56.wasm",
-    "source/images/Pasted image 20260228194627.png",
-    "source/images/Pasted image 20260228193706.png",
     "scaffolds/page.md",
     "scaffolds/Template/Front-matter.md.md",
     "scaffolds/draft.md",
     "source/umasim/race/144e166877b65be6ca78.wasm",
     "赛马娘繁中PVP大赛记录.pdf",
-    "source/images/Pasted image 20250727114043.png",
     "source/images/Pasted image 20250727112256.png",
-    "source/images/Pasted image 20250727111812.png",
-    "source/images/Pasted image 20250727111529.png",
-    "source/images/Pasted image 20250727104036.png",
-    "source/images/Pasted image 20250727105344.png",
-    "source/images/Pasted image 20250727104923.png",
     "scaffolds/Template/color-label.md.md",
     "source/_posts/().md",
     "public/tags/hexo/index.html",
@@ -236,7 +236,6 @@
     "node_modules/hexo-abbrlink/node_modules/js-yaml/README.md",
     "node_modules/hexo-abbrlink/node_modules/htmlparser2/README.md",
     "node_modules/hexo-abbrlink/node_modules/domhandler/readme.md",
-    "node_modules/hexo-abbrlink/node_modules/argparse/CHANGELOG.md",
-    "node_modules/luxon/README.md"
+    "node_modules/hexo-abbrlink/node_modules/argparse/CHANGELOG.md"
   ]
 }

@@ -1,28 +1,7 @@
 {
-  "newFileLocation": "folder",
-  "newFileFolderPath": "source/_posts",
-  "attachmentFolderPath": "source/images",
-  "userIgnoreFilters": [
-    "node_modules/",
-    "public/",
-    "scaffolds/",
-    "themes/"
-  ],
   "useMarkdownLinks": true,
+  "spellcheck": true,
   "newLinkFormat": "relative",
-  "promptDelete": false,
-  "pdfExportSettings": {
-    "includeName": true,
-    "pageSize": "Letter",
-    "landscape": false,
-    "margin": "0",
-    "downscalePercent": 100
-  },
-<<<<<<< HEAD
-  "foldIndent": false,
-  "spellcheck": false,
-  "useTab": true
-=======
-  "livePreview": false
->>>>>>> origin/hexo
+  "attachmentFolderPath": "source/images",
+  "newFileLocation": "current"
 }

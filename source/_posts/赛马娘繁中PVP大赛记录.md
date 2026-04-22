@@ -117,5 +117,13 @@ updated: 2026-03-01T17:46:43
 # 机械杯剧本大赛
 ## 3月LOH
 ### 赛道信息
-**京都草地 2200m 顺时针 秋季 昼间赛**
-对应G1：女王杯，[Bwiki赛道图](https://wiki.biligame.com/umamusume/%E7%B9%81/%E4%BC%8A%E9%BA%97%E8%8E%8E%E7%99%BD%E5%A5%B3%E7%8E%8B%E7%9B%83)
+![](../images/Pasted%20image%2020260422180918.png)对应G1：女王杯，[Bwiki赛道图](https://wiki.biligame.com/umamusume/%E7%B9%81/%E4%BC%8A%E9%BA%97%E8%8E%8E%E7%99%BD%E5%A5%B3%E7%8E%8B%E7%9B%83)
+
+## 4月大赛
+### 赛道信息
+![](../images/Pasted%20image%2020260422180618.png)对应G1：有马纪念，[Bwiki赛道图](https://wiki.biligame.com/umamusume/%E7%B9%81/%E6%9C%89%E9%A6%AC%E7%B4%80%E5%BF%B5)
+
+
+## 5月大赛
+### 赛道信息
+![](../images/Pasted%20image%2020260422180730.png)对应G2：神户新闻杯，[Bwiki赛道图](https://wiki.biligame.com/umamusume/%E7%B9%81/%E7%A5%9E%E6%88%B6%E6%96%B0%E8%81%9E%E7%9B%83)
