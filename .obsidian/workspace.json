@@ -26,13 +26,14 @@
             "id": "55f7cc8069c68eec",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "scaffolds/post.md",
-                "staged": true
+                "file": "source/about/index.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "git-pull-request",
-              "title": "Diff View (post)"
+              "icon": "lucide-file",
+              "title": "index"
             }
           }
         ],
