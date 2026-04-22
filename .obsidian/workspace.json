@@ -21,8 +21,22 @@
               "icon": "lucide-file",
               "title": "赛马娘繁中PVP大赛记录"
             }
+          },
+          {
+            "id": "55f7cc8069c68eec",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": "scaffolds/post.md",
+                "staged": true
+              },
+              "icon": "git-pull-request",
+              "title": "Diff View (post)"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -175,15 +189,18 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ed84ac98c9196385",
+  "active": "55f7cc8069c68eec",
   "lastOpenFiles": [
-    "source/images/Pasted image 20260228194554.png",
+    "source/about/index.md",
+    "conflict-files-obsidian-git.md",
     "source/_posts/赛马娘繁中PVP大赛记录.md",
+    "source/_posts/赛马娘游戏机制小知识.md",
+    "source/_posts/博客维护笔记.md",
+    "source/images/Pasted image 20260228194554.png",
     "source/_posts/传统与科学.md",
     "source/_posts/获取不蒜子访问数据.md",
     "source/categories/index.md",
     "source/bangumis/index.md",
-    "source/about/index.md",
     "source/_posts/赛马娘繁中URA配置记录.md",
     "source/_posts/Hexo博客SEO优化.md",
     "source/_posts/hello-world-test.md",
@@ -219,8 +236,6 @@
     "node_modules/hexo-abbrlink/node_modules/htmlparser2/README.md",
     "node_modules/hexo-abbrlink/node_modules/domhandler/readme.md",
     "node_modules/hexo-abbrlink/node_modules/argparse/CHANGELOG.md",
-    "node_modules/luxon/README.md",
-    "node_modules/luxon/LICENSE.md",
-    "node_modules/hexo-deployer-git/node_modules/hexo-util/README.md"
+    "node_modules/luxon/README.md"
   ]
 }
