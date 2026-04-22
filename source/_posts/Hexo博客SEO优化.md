@@ -6,9 +6,11 @@ tags:
 categories: 博客
 abbrlink: ca0e86e3
 date: 2024-07-02 23:02:46
-updated: 2024-07-03 18:50:29
+updated: 2024-09-22T17:35:18
 description:
 ---
 博客出现异常流量，怀疑为爬虫。
 使用百度统计和Google Analytics监控均出现异常。
-在source文件夹下添加robots.txt后依旧无效，等待解决。
+~~在source文件夹下添加robots.txt后依旧无效，等待解决。~~
+
+已解决

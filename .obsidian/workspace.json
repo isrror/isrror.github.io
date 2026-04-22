@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "source/_posts/赛马娘繁中PVP大赛记录.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
@@ -79,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 294.5
   },
   "right": {
     "id": "37bdac2d022653bf",
@@ -166,6 +166,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
@@ -176,18 +177,21 @@
   },
   "active": "ed84ac98c9196385",
   "lastOpenFiles": [
-    "source/_posts/赛马娘繁中URA配置记录.md",
-    "source/_posts/赛马娘繁中PVP大赛记录.md",
-    "source/_posts/Github双分支部署hexo博客.md",
-    "source/_posts/获取不蒜子访问数据.md",
-    "source/umasim/race/6b16932a3b06958b4a56.wasm",
-    "source/images/Pasted image 20260228194627.png",
     "source/images/Pasted image 20260228194554.png",
-    "source/images/Pasted image 20260228193706.png",
-    "scaffolds/page.md",
+    "source/_posts/赛马娘繁中PVP大赛记录.md",
     "source/_posts/传统与科学.md",
+    "source/_posts/获取不蒜子访问数据.md",
+    "source/categories/index.md",
+    "source/bangumis/index.md",
+    "source/about/index.md",
+    "source/_posts/赛马娘繁中URA配置记录.md",
     "source/_posts/Hexo博客SEO优化.md",
     "source/_posts/hello-world-test.md",
+    "source/_posts/Github双分支部署hexo博客.md",
+    "source/umasim/race/6b16932a3b06958b4a56.wasm",
+    "source/images/Pasted image 20260228194627.png",
+    "source/images/Pasted image 20260228193706.png",
+    "scaffolds/page.md",
     "scaffolds/Template/Front-matter.md.md",
     "scaffolds/draft.md",
     "source/umasim/race/144e166877b65be6ca78.wasm",
@@ -217,9 +221,6 @@
     "node_modules/hexo-abbrlink/node_modules/argparse/CHANGELOG.md",
     "node_modules/luxon/README.md",
     "node_modules/luxon/LICENSE.md",
-    "node_modules/hexo-deployer-git/node_modules/hexo-util/README.md",
-    "node_modules/hexo-deployer-git/node_modules/domutils/readme.md",
-    "node_modules/hexo-deployer-git/node_modules/dom-serializer/README.md",
-    "node_modules/hexo-deployer-git/node_modules/domhandler/readme.md"
+    "node_modules/hexo-deployer-git/node_modules/hexo-util/README.md"
   ]
 }
